@@ -1,6 +1,6 @@
 Name:           maven-ear-plugin
 Version:        2.8
-Release:        4%{?dist}
+Release:        5%{?dist}
 Summary:        Maven EAR Plugin
 
 Group:          Development/Libraries
@@ -87,6 +87,9 @@ cp -pr target/site/api*/* %{buildroot}%{_javadocdir}/%{name}/
 %{_javadocdir}/%{name}
 
 %changelog
+* Fri Dec 27 2013 Daniel Mach <dmach@redhat.com> - 2.8-5
+- Mass rebuild 2013-12-27
+
 * Thu Feb 14 2013 Fedora Release Engineering <rel-eng@lists.fedoraproject.org> - 2.8-4
 - Rebuilt for https://fedoraproject.org/wiki/Fedora_19_Mass_Rebuild
 
